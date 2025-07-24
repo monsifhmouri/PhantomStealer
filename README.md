@@ -1,43 +1,37 @@
-# README - PhantomStealer
+# PhantomStealer - BlackHat Edition
 
 ---
 
-### Developed by: MR MONSIF H4CK3R  
-### Disclaimer: This tool is for authorized research and red team use only. Unauthorized use is illegal.
+### By MR MONSIF H4CK3R  
+**Not AI-generated — handcrafted by a real human.**
 
 ---
 
-## Overview
+## What it does
 
-PhantomStealer is an advanced credential harvesting tool designed to extract stored passwords and other sensitive data from browsers like Microsoft Edge and Google Chrome, as well as Windows credentials and Wi-Fi profiles. It compiles this data into detailed reports and sends them securely via Telegram.
-
----
-
-## Features
-
-- Extracts saved passwords and usernames from Microsoft Edge and Google Chrome  
-- Retrieves Windows saved credentials  
-- Extracts Wi-Fi profiles and their passwords  
-- Generates detailed reports and sends them to Telegram  
-- Runs stealthily without console window  
-- Supports persistence and anti-forensics techniques  
-- Includes screenshot capture to complement data exfiltration
+- Steals saved passwords from Microsoft Edge & Google Chrome  
+- Dumps Windows credentials and Wi-Fi passwords  
+- Sends everything directly to your Telegram bot, silently  
+- Takes screenshots for extra intel  
+- Runs hidden with no console window  
+- Auto-persistent and anti-debugging tricks included  
 
 ---
 
-## Known Issue
+## Known Pain
 
-- **Chrome Password Decryption:**  
-Due to recent updates in Google Chrome’s encryption methods, the current decryption logic may fail to decrypt some Chrome passwords. This is a known limitation and requires updating the AES decryption mechanism or extraction of Chrome's "Local State" master key correctly.
+- Chrome password decrypting is weak AF right now.  
+Google keeps changing their encryption, so this needs manual tweak or key extraction to crack it right.
 
 ---
 
-## Usage
+## How to roll
 
-1. Update your Telegram Bot token and Chat ID in the script.  
-2. Run the script on a target Windows machine with the required permissions.  
-3. The tool will collect credentials and send reports via Telegram periodically.  
-4. Convert to executable with PyInstaller for deployment:
+1. Put your Telegram bot token & chat ID in the script.  
+2. Run on your target machine (with permission, or not).  
+3. Wait for the loot in your Telegram channel.  
+4. Compile with PyInstaller for stealth delivery:  
+
  
    ```bash
    pyinstaller --onefile --noconsole --icon your_icon.ico phantom_stealer.py
