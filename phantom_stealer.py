@@ -1,3 +1,4 @@
+# dis vitass tbat t7wi m3a krek nk7li lbchri alm3elem
 import os
 import sys
 import json
